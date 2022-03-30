@@ -104,10 +104,19 @@
 /* /EXPLORE PS4 */
 
 
-
 /* PS PLUS */
 
+.ps-plus {
+  background-color: #BEBCBB;
+}
 
+.ps-plus .plus-banner {
+  width: 60%;
+}
+
+.ps-plus .plus-games {
+  width: 100%;
+}
 
 /* /PS PLUS */
 
