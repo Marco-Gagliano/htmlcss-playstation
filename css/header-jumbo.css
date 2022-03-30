@@ -17,8 +17,59 @@
 
 /* PLAYSTATION NAVBAR */
 
-
-
+.navbar {
+  background-color: #FFFFFF;
+}
 /* /PLAYSTATION NAVBAR */
 
 /* /HEADER */
+
+
+/* JUMBOTRON */
+.jumbotron {
+  height: 100%;
+}
+
+/* RETURNAL GAME */
+
+
+.returnal-game {
+  background-image: url(/img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  color: #FFFFFF;
+}
+
+.returnal-game img {
+  width: 20%;
+}
+
+
+
+
+
+/* /RETURNAL GAME */
+
+/* OTHER NEW GAME */
+.other-new-game {
+  width: 100%;
+
+}
+
+
+.other-new-game img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.other-new-game img:hover {
+  border: 2px solid #0D79D0;
+  
+}
+
+/* /OTHER NEW GAME */
+
+/* /JUMBOTRON */

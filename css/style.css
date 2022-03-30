@@ -9,12 +9,18 @@ body {
   padding: 10px 10px;
   border: 0px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .btn-login {
   background-color: #363636;
   color: #F0F0F0 !important;
-  font-weight: bold;
+}
+
+.btn-buy {
+  background-color: #CD3D0F;
+  color: #FFFFFF;
+
 }
 
 /* /GENERAL PRESETS */
