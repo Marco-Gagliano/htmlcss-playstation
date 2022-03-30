@@ -106,6 +106,7 @@
 
 /* PS PLUS */
 
+
 .ps-plus {
   background-color: #BEBCBB;
 }
@@ -123,7 +124,6 @@
 
 /* PS STORE */
 
-
 .ps-store-sales img {
   width: 100%;
 }
@@ -131,9 +131,23 @@
 /* /PS STORE */
 
 
-
 /* PS NOW */
 
+.ps-now {
+  background-color: #161C3B;
+}
 
+.ps-now-description p {
+  padding-right: 0px;
+  font-size: 18px;
+}
+
+.ps-now .now-banner {
+  width: 58%;
+}
+
+.ps-now .now-games {
+  width: 100%;
+}
 
 /* /PS NOW */

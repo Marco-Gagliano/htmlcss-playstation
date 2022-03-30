@@ -6,7 +6,7 @@ body {
 
 .btn-dft {
   border-radius: 25px;
-  padding: 10px 10px;
+  padding: 10px 15px;
   border: 0px;
   cursor: pointer;
   font-weight: bold;
@@ -30,6 +30,11 @@ body {
 .btn-plus {
   background-color: #D9DADC;
   color: #2D64E6;
+}
+
+.btn-now {
+  background-color: #F5F5F5;
+  color: #000000;
 }
 
 /* /GENERAL PRESETS */
