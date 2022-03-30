@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.ps5-and-components p {
+.ps5-and-components p, .explore-ps4 p {
   color: #727272;
   font-size: 19px;
 }
@@ -92,14 +92,14 @@
   font-size: 18px;
 }
 
-
 /* /NEW ARRIVALS */
-
 
 
 /* EXPLORE PS4 */
 
-
+.ps4-items img {
+  width: 100%;
+}
 
 /* /EXPLORE PS4 */
 
