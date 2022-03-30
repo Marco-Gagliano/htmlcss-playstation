@@ -20,7 +20,11 @@ body {
 .btn-buy {
   background-color: #CD3D0F;
   color: #FFFFFF;
+}
 
+.btn-more {
+  background-color: #0D79D0;
+  color: #FFFFFF;
 }
 
 /* /GENERAL PRESETS */
