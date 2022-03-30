@@ -35,8 +35,15 @@
   padding: 0 5px;
 }
 
+.sc-container-components .col {
+  opacity: .5;
+}
+
 .sc-container-components .col:hover {
   border-bottom: 2px solid #0D79D0;
+  opacity: 1;
+  transition: .2s ease-in;
+  transition: .2s ease-out;
 }
 
 .sc-container-components p {
@@ -46,10 +53,25 @@
 /* /PS5 AND COMPONENTS */
 
 
-
 /* IT TAKES TWO GAME */
 
+.it-takes-two-game {
+  background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 780px;
+}
 
+.it-takes-two-game img {
+  width: 20%;
+}
+
+.sc-container-it-takes-two {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
 
 /* /IT TAKES TWO GAME */
 
