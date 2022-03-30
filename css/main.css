@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.ps5-and-components p, .explore-ps4 p {
+.ps5-and-components p, .explore-ps4 p, .ps-store p {
   color: #727272;
   font-size: 19px;
 }
@@ -121,10 +121,12 @@
 /* /PS PLUS */
 
 
-
 /* PS STORE */
 
 
+.ps-store-sales img {
+  width: 100%;
+}
 
 /* /PS STORE */
 
