@@ -1,24 +1,20 @@
-.debug {
-  background-color: brown;
-  border: 1px solid #000000;
+/* GENERAL PRESETS */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.h50 {
-  height: 50px;
+.btn-dft {
+  border-radius: 25px;
+  padding: 10px 10px;
+  border: 0px;
+  cursor: pointer;
 }
 
-.h100 {
-  height: 100px;
+.btn-login {
+  background-color: #363636;
+  color: #F0F0F0 !important;
+  font-weight: bold;
 }
 
-.h200 {
-  height: 200px;
-}
-
-.h300 {
-  height: 300px;
-}
-
-.h400 {
-  height: 400px
-}
+/* /GENERAL PRESETS */
