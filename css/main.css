@@ -76,9 +76,21 @@
 /* /IT TAKES TWO GAME */
 
 
-
 /* NEW ARRIVALS */
 
+.new-arrivals {
+  background-color: #1F1F1F;
+}
+
+.new-arrivals-game img {
+  width: 100%;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+
+.new-arrivals-game p {
+  font-size: 18px;
+}
 
 
 /* /NEW ARRIVALS */
