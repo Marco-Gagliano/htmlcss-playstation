@@ -1,0 +1,13 @@
+/* MEDIA QUERY */
+
+@media screen and (max-width:767px){
+  
+  .now-games, .plus-games, .components p {
+    display: none
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+  
+}

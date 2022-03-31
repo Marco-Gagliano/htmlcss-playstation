@@ -8,7 +8,6 @@
   font-size: 19px;
 }
 
-
 .ps5-and-components-title span {
   color: #0D79D0;
 }
@@ -25,8 +24,6 @@
   width: 100%;
 }
 
-
-
 .components img {
   width: 100%;
   padding: 0 5px;
@@ -34,13 +31,12 @@
 
 .components .col {
   opacity: .5;
+  transition: .3s all;
 }
 
 .components .col:hover {
-  border-bottom: 2px solid #0D79D0;
   opacity: 1;
-  transition: .2s ease-in;
-  transition: .2s ease-out;
+  border-bottom: 2px solid #0D79D0;
 }
 
 .components p {
@@ -81,6 +77,11 @@
   width: 100%;
   border-radius: 30px;
   margin: 10px 0;
+  transition: ease-in .2s;
+}
+
+.new-arrivals-game img:hover {
+  opacity: .5;
 }
 
 .new-arrivals-game p {
@@ -121,6 +122,11 @@
 
 .ps-store-sales img {
   width: 100%;
+  transition: .2s ease-in;
+}
+
+.ps-store-sales img:hover {
+  opacity: .7;
 }
 
 /* /PS STORE */

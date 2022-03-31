@@ -10,39 +10,68 @@ body {
   border: 0px;
   cursor: pointer;
   font-weight: bold;
+  transition: .1s ease-in;
+}
+
+.btn-dft:hover {
+  border: 2px solid #FFFFFF;
+  transition: .1s ;
 }
 
 .btn-login {
   background-color: #363636;
-  color: #F0F0F0 !important;
+  color: #F0F0F0;
+  transition: all .2s;
+}
+
+.btn-login:hover {
+  opacity: .8;
+  box-shadow: 0 0 0 2px #363636;
+  border: 2px solid #FFFFFF;
 }
 
 .btn-buy {
   background-color: #CD3D0F;
   color: #FFFFFF;
+  border: 2px solid #CD3D0F
+}
+
+.btn-buy:hover {
+  box-shadow: 0 0 0 2px #CD3D0F;
 }
 
 .btn-more {
   background-color: #0D79D0;
   color: #FFFFFF;
+  border: 2px solid #0D79D0;
+}
+
+.btn-more:hover {
+  box-shadow: 0 0 0 2px #0D79D0;
 }
 
 .btn-plus {
   background-color: #D9DADC;
-  color: #2D64E6;
+  color: #2D62E6;
+  border: 2px solid #BEBCBB;
+}
+
+.btn-plus:hover {
+  box-shadow: 0 0 0 2px #D9DADC;
 }
 
 .btn-now {
   background-color: #F5F5F5;
   color: #000000;
+  border: 2px solid #161C3B !important;
+}
+
+.btn-now:hover {
+  box-shadow: 0 0 0 2px #F5F5F5;
 }
 
 ul {
   list-style: none;
-}
-
-li {
-  padding-right: -16px;
 }
 
 a {
@@ -52,6 +81,14 @@ a {
 
 a:hover {
   color: #DDDDDD;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+ul li {
+  display: inline-block;
 }
 
 /* /GENERAL PRESETS */

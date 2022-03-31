@@ -1,5 +1,13 @@
 /* HEADER */
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
 /* SONY BLACK BAR */
 
 .sony-black-bar {
@@ -19,13 +27,39 @@
 
 .navbar {
   background-color: #FFFFFF;
+  padding: 0 10px;
 }
+
+.nav-link {
+  color:#000000 !important;
+}
+
+.nav-link:hover {
+  color:#0D79D0 !important
+}
+
+.dropdown-item img {
+  width: 60%;
+}
+
+.dropdown-menu li{
+ width: 80%;
+}
+
+.search {
+  width: 60%;
+}
+
 /* /PLAYSTATION NAVBAR */
 
 /* /HEADER */
 
 
 /* JUMBOTRON */
+
+.jumbotron {
+  margin-top: 114px;
+}
 
 /* RETURNAL GAME */
 
@@ -38,7 +72,7 @@
 }
 
 .returnal-game img {
-  width: 20%;
+  width: 100%;
 }
 
 /* /RETURNAL GAME */
@@ -53,9 +87,10 @@
   width: 100%;
   border-radius: 20px;
   padding: 5px;
+  transition: .1s all;
 }
 
-.other-new-game img:hover {
+.other-new-game img:active {
   border: 2px solid #0D79D0;
 }
 

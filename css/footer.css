@@ -6,7 +6,15 @@
 
 .social-media-link img {
   width: 100%;
+  transition: all .4s;
 }
+
+.social-media-link img:hover {
+  filter: brightness(1);
+  opacity: .7;
+}
+
+
 
 /* /SOCIAL MEDIA */
 
