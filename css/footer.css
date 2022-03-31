@@ -1,3 +1,5 @@
+/* SOCIAL MEDIA */
+
 .social-media-link a {
   cursor: pointer;
 }
@@ -5,4 +7,37 @@
 .social-media-link img {
   width: 100%;
 }
+
+/* /SOCIAL MEDIA */
+
+
+/* CONTACT AND CREDITS */
+
+.contact-and-credits {
+  background-color: #00439C;
+}
+
+.contact-and-credits p {
+  font-size: 15px;
+}
+
+.logo-psn img {
+  width: 20%;
+}
+
+.country img {
+  width: 4%;
+}
+
+.sie-logo {
+  width: 30%;
+}
+
+
+/* /CONTACT AND CREDITS */
+
+
+
+
+
 

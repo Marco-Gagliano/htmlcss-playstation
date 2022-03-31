@@ -25,28 +25,25 @@
   width: 100%;
 }
 
-.sc-container-components {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.sc-container-components img {
+
+.components img {
   width: 100%;
   padding: 0 5px;
 }
 
-.sc-container-components .col {
+.components .col {
   opacity: .5;
 }
 
-.sc-container-components .col:hover {
+.components .col:hover {
   border-bottom: 2px solid #0D79D0;
   opacity: 1;
   transition: .2s ease-in;
   transition: .2s ease-out;
 }
 
-.sc-container-components p {
+.components p {
   color: #000000;
 }
 
@@ -60,17 +57,15 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 780px;
 }
 
 .it-takes-two-game img {
-  width: 20%;
+  width: 80%;
 }
 
-.sc-container-it-takes-two {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
+.it-takes-two-game p {
+  padding: 20px 0;
+  font-size: 19px;
 }
 
 /* /IT TAKES TWO GAME */
